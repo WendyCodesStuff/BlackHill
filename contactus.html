@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>What We Do</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="scripts/bootstrap-yeti-wendy.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+<link href="scripts/BHWD-scripts.css" rel="stylesheet" type="text/css">
+
+ 
+</head>
+
+<body>
+
+        <div class="text-white" style="width:100%;">
+
+                <header class="header navbar navbarsecondary">
+
+                    <h1 style="font-family:Helvetica Neue;padding-left: 10px;"><a href="index.html">Black Hill Web Design</a></h1>
+                        
+                    <input class="menu-btn " type="checkbox" id="menu-btn" />
+                    <label class="menu-icon " for="menu-btn"><span class="navicon"></span></label>
+                    
+                    <ul class="menu menu-margin-override ">
+                        <li  class="menu-margin-override" style="text-align: right;"><a href="index.html">Home</a></li>
+                        <li  class="menu-margin-override" style="text-align: right;"><a href="what-we-do.html">What We Do</a></li>
+                        <li  class="menu-margin-override" style="text-align: right;"><a href="FAQs.html">FAQs</a></li>
+                        <li  class="menu-margin-override" style="text-align: right;"><a href="contact.html">Contact</a></li>
+                    </ul>
+                        
+                </header>
+            </div>
+        </div>
+    
+        <div class="container-fluid overlay-none topmargin"   style="width:100%;"></div>
+
+        <!-- Whole page row/col--> 
+        <div class="container-fluid overlay-none">
+            <div class="row single-col-padding" >
+                <div class="col-md-10" style="margin:auto;">
+            <!-- End of whole page declaration-->
+<!-- Headline-->
+<div class="row"> 
+    <div class="col" style="align-content: left;">
+        <h2>
+            Contact Us
+        </h2>
+    </div>
+</div>  <!-- end of row -->
+<!-- End of headline-->
+<!-- The form -->
+
+Have a browse through our portfolio of projects to get an idea of the kind of site that suits you best, then provide as much information as you can about your requirements:
+<br><br>
+            <div class="container" style="text-align: left;">
+                <form method="POST" action="scripts/submit.php">
+                  <div><label class="labelstyle">Name</label></div>
+                  <div><input type="text" name="myName" class="form-control" /></div>
+
+                  <div><label class="labelstyle">Company</label></div>
+                  <div><input type="text" name="Company" class="form-control"/></div>
+            
+                  <div><label class="labelstyle">Email Address</label></div>
+                  <div><input type="text" name="myEmail" class="form-control" placeholder="name@domain.com"/></div>
+                  
+                  <div><label class="labelstyle">Message</label></div>
+                  <div><textarea cols="40" rows="5" name="myMessage" class="form-control" placeholder="Your Requirements"></textarea></div>
+
+                  <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+                  <br>
+                  <div class="float-right mt-2">
+                    <input type="submit" value="Send" class="btn btn-primary" />
+                  </div>
+                </form>
+              </div>
+
+                        <!-- End of whole page row/col declaration -->
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                                <!-- Socials Bottom Nav Bar-->
+                    <div class="container-fluid navbarsecondary bottomdiv">
+
+                            <div class=" socials">
+                                    <a href="facebook.com" class="fa fa-facebook" style="font-size:60px;color:whitesmoke;text-decoration: none;" >     </a>
+                                
+                                    <a href="instagram.com" class="fa fa-instagram" style="font-size:60px;color:whitesmoke;text-decoration: none;" >     </a>
+                                    <a href="twitter.com" class="fa fa-twitter" style="font-size:60px;color:whitesmoke;text-decoration: none;" ></a>
+                                
+                            </div>
+                            <div class="copyright">
+                                <h6>
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                        <a class="nav-link" style="color: whitesmoke" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" style="color: whitesmoke" href="FAQs.html">FAQ</a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                        <a class="nav-link" style="color: whitesmoke" href="https://www.facebook.com/">Facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" style="color: whitesmoke" href="contactus.html">Contact</a>
+                                        </li>
+                                    
+                                    </ul>
+                              
+                                </h6>
+                                
+                            </div> 
+                            <div class="bhwd-copyright">
+                                <a href="index.html">Black Hill Web Design: Copyright 2020</a>
+                            </div>
+                        </div>
+                   
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    
+    </body>
+    </html>

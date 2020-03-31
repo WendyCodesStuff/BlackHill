@@ -1,0 +1,133 @@
+
+
+  .navbarsecondary-ashwell {
+    
+    background-image: linear-gradient(to bottom , #311d03de, rgb(0, 0, 0));
+    height:170px;
+ 
+  }
+
+.no-padding{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Phones */
+@media screen  
+  and (min-device-width: 320px) 
+  and (max-device-width: 730px)
+  {
+  .centered-logo {
+    display: none;
+  }
+    .socials-ashwell {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+
+}
+.socials-size{
+  font-size:30px;
+}
+
+}
+@media screen  
+  and (min-device-width: 730px) 
+  and (max-device-width: 953px)
+  {
+    .centered-logo {
+      display: none;
+    }
+  }
+  .socials-ashwell {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+}
+.socials-size{
+  font-size:30px;
+}
+}
+
+/* Tablets */
+@media screen 
+  and (min-device-width: 953px) 
+  and (max-device-width: 1024px) 
+  {
+    .centered-logo {
+      position : absolute;
+      color:whitesmoke;
+      text-decoration: none;
+      opacity: 0.7;
+      bottom: 25%;
+      left: calc(50% - 100px);
+    }
+    .socials-ashwell {
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      top: 100%;
+      color:whitesmoke;
+      text-decoration: none;
+      transform: translate(-50%, -200%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 8px;
+  
+  }
+  .socials-size{
+    font-size:60px;
+  }
+
+
+  }
+/* Desktop / laptop */
+
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1600px)
+  {
+    .centered-logo {
+      position : absolute;
+      color:whitesmoke;
+      text-decoration: none;
+      opacity: 0.7;
+      bottom: 25%;
+      left: calc(50% - 100px);
+    }
+    .socials-ashwell {
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      top: 100%;
+      color:whitesmoke;
+      text-decoration: none;
+      transform: translate(-50%, -200%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 8px;
+  
+  }
+  .socials-size{
+    font-size:60px;
+  }
+
+}
+

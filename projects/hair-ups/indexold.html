@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hair Ups</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="../../scripts/bootstrap-yeti-wendy.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="vendor/w3js.min.js"></script>
+  <script src="w3.includeHTML();"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+  <link rel='icon' href='favicon.png' type='image/x-icon' >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+<link href="../../scripts/BHWD-scripts.css" rel="stylesheet" type="text/css">
+<link href="scripts/bhwd-hair.css" rel="stylesheet" type="text/css">
+
+<style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        #myImg {
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        
+        #myImg:hover {opacity: 0.7;}
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
+        
+        /* Modal Content (image) */
+        .modal-content {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+        }
+        
+        /* Caption of Modal Image */
+        #caption {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+          text-align: center;
+          color: #ccc;
+          padding: 10px 0;
+          height: 150px;
+        }
+        
+        /* Add Animation */
+        .modal-content, #caption {  
+          -webkit-animation-name: zoom;
+          -webkit-animation-duration: 0.6s;
+          animation-name: zoom;
+          animation-duration: 0.6s;
+        }
+        
+        @-webkit-keyframes zoom {
+          from {-webkit-transform:scale(0)} 
+          to {-webkit-transform:scale(1)}
+        }
+        
+        @keyframes zoom {
+          from {transform:scale(0)} 
+          to {transform:scale(1)}
+        }
+        
+        /* The Close Button */
+        .close {
+          position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px){
+          .modal-content {
+            width: 100%;
+          }
+        }
+        </style>
+</head>
+
+
+
+<body>
+       <!-- nav bar -->
+        <div class="text-white" style="width:100%;">
+
+                <header class="header navbar">
+
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    
+                    <ul class="menu">
+                        <li class="menu-margin-override" style="text-align: right;"><a href="index.html">Home</a></li>
+                        <li class="menu-margin-override" style="text-align: right;"><a href="https://github.com/">GitHub</a></li>
+                        <li class="menu-margin-override" style="text-align: right;"><a href="https://linkedin.com/">LinkedIn</a></li>
+                        <li class="menu-margin-override" style="text-align: right;"><a href="https://github.com/">Recent Projects</a></li>
+                    </ul>
+                        
+                </header>
+        </div>
+        
+        <!--  end of nav bar -->
+
+        <div class="container-rel ">
+                <img src="images/bride-getting-her-hair-done-landscape.jpg" alt="Hair Ups" style="width:100%;height:100%;">
+        </div>    
+        <!-- Text section -->
+    <div class="container-fluid overlay-none"   style="width:100%;margin-bottom: 50px;">
+ 
+                <div class="container-fluid overlay-none" id="aboutus">
+                        <br>
+                        <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8" style="text-align:justify;"><text  >
+                
+                                        Welcome to Hair Up Designer Hairdressers, a multi-finalist and award winning salon, based in the heart of Oxfordshire at the Chiltern Dome.  Founded by partners Edina Spurlow and Mia Goldman, the team continues to grow and is now one of the most sought after specialty stylists in the Thames Valley. 
+                                    <br><br>
+                                </text>
+                            </div>
+                                <div class="col-2"></div>
+                                
+                        </div>
+                
+                </div>
+            </div>
+  
+
+
+         <!-- End of Text section -->
+         <!-- Lightbox -->
+  <!--Section: gallery-->
+ <!-- Trigger the Modal -->
+ <img id="myImg" src="images/woman-wearing-gold.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+   <span class="close">&times;</span>
+   <img class="modal-content" id="img01">
+   <div id="caption"></div>
+ </div>
+    <!--Section: gallery-->
+        
+         <!-- End of Lightbox -->
+        <!-- Cards -->
+        <div class="container-fluid">
+        <div class="card-deck" style="margin: 0; overflow: hidden;height: 300px;">
+                
+           
+            <div class="card" style="margin:-15px;">
+                <div class="card-body no-padding ">
+                        
+                        <img class="card-img-top " src="images/woman-wearing-gold.jpg" alt="Golden jewelled hair decoration" title="Golden Jewelled Hair Decoration">
+                </div>
+            </div>
+
+            <div class="card" style="margin:-15px;">
+                <div class="card-body no-padding ">
+                    <img class="card-img-top " src="images/woman-wearing-pink.jpg" alt="Fresh flower weave" title="Fresh Flower Weave">
+                </div>
+            </div>
+
+            <div class="card" style="margin:-15px;">
+                <div class="card-body no-padding ">
+                        
+                        <img class="card-img-top " src="images/woman-lace-gown-1.jpg" alt="Loose ringlets" title="Loose Ringlets">
+                </div>
+            </div> 
+
+            
+
+            <div class="card" style="margin:-15px;">
+                <div class="card-body no-padding ">
+                        <img class="card-img-top " src="images/woman-girl.jpg" alt="Boyish crop" title="Boyish Crop">
+                </div>
+            </div>   
+
+            <div class="card " style="margin:-15px;">
+                <div class="card-body no-padding ">
+                        <img class="card-img-top " src="images/bride-getting-her-hair-done.jpg" alt="Decorative ponytail" title="Decorative Ponytail">
+                </div>
+            </div>
+               
+            <div class="card " style="margin:-15px;" >
+                <div class="card-body no-padding ">
+                        <img class="card-img-top " src="images/standing-woman-1.jpg" alt="Natural afro" title="Natural Afro">
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+<!-- End of Cards -->
+        <div class="quotesegment"> 
+                <br><br><br>
+                <!-- Quote Block-->
+               <div class="testimonial-quote group " style="align-content: left;">
+                    <br>
+                    <div class="quote-container">
+                        <blockquote>
+                            <p>"As a tech startup, we initially managed all of our telecoms in-house. As we grew, we wanted to spend more and more of our time on our technology and production and Ashwell Systems has allowed us to do that.  We initally worked with them purely for their Broadband expertise but have found Christian and his team's bredth of knowledge invaluable and discovered they really did tick every box!”</p>
+                        </blockquote>  
+                        <cite><span>Amit Delaney</span><br>
+                            Network Systems Manager<br>
+                            Cartwheel Digital Productions
+                        </cite>
+                        <br><br><br>
+                    </div>
+                        
+                </div>   
+            </div>
+        
+    
+
+    <!-- End of Quote Block -->
+
+            <!-- Socials Bottom Nav Bar-->
+            <div class="container-fluid navbarsecondary-ashwell bottomdiv">
+                <!-- cols -->
+                    <div class=" socials-ashwell">
+                        <div class="container-fluid">
+                            
+                            <div class="row">
+                                <div class="col" style="text-align: left; vertical-align: bottom;">
+                                    <a href="privacy-policy.pdf">Privacy Policy</a>
+
+                                </div>
+
+                                <div class="col">
+                                            <a href="https://facebook.com" class="fa fa-facebook socials-size " style="color:whitesmoke;text-decoration: none;" >     </a>
+                                        
+                                            <a href="https://instagram.com" class="fa fa-instagram socials-size " style="color:whitesmoke;text-decoration: none;" >     </a>
+                                            <a href="https://twitter.com" class="fa fa-twitter socials-size " style="color:whitesmoke;text-decoration: none;" ></a>
+                                </div>
+                                    
+                                <div class="col" style="text-align: right;">
+                                                                 
+                                        Ashwell Systems Ltd<br>
+                                        114 City Walls Road<br> 
+                                        Clovenfords<br>
+                                        TD1 8FF<br>
+                                        077 0692 0667<br>
+
+                                        contact@ashwellsystemsuk.co.uk
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                
+                <div class="copyright">
+                    <h6>
+                        <ul class="nav">
+                            <li class="nav-item">
+                            <a class="nav-link" style="color: whitesmoke" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" style="color: whitesmoke" href="FAQs.html">FAQ</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                            <a class="nav-link" style="color: whitesmoke" href="https://www.facebook.com/">Facebook</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" style="color: whitesmoke" href="contactus.html">Contact</a>
+                            </li>
+                        
+                        </ul>
+                
+                    </h6>
+                    
+                </div> 
+                <div class="bhwd-copyright">
+                    <a href='https://pngtree.com/so/scissors'>Scissors Logo Credit</a>
+                    <a href="../../index.html">Black Hill Web Design: Copyright 2020</a>
+                </div>
+            </div>
+        
+
+
+
+<script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 2000, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+      </script>
+      </body>
+

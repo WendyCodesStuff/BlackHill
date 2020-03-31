@@ -1,0 +1,162 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+body:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: rgba(228, 140, 8, 0.3);
+}
+.containerdiv {
+    border: 0;
+    float: left;
+    position: relative;
+
+  } 
+ 
+   .button-image {
+    border: 0;
+    position: absolute;
+    top: 60%;
+    left: calc(50% - 50px);
+    align-content: center;
+    vertical-align: center;
+    width: 100px;
+    height: auto;
+    opacity:70%;
+    z-index: 3;
+   } 
+   .button-image:hover {
+    opacity: 1;
+   }
+   img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+.header .menu-icon .navicon {
+    background: whitesmoke;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+    margin-right: 10px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: whitesmoke;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    margin-right: 10px;
+
+  }
+
+
+
+ 
+/* Phones */
+@media screen  
+  and (min-device-width: 320px) 
+  and (max-device-width: 730px)
+  
+  {
+    .internal-image {
+        border: 0;
+        position: absolute;
+        top: 30%;
+        left: calc(50% - 150px);
+        align-content: center;
+        vertical-align: center;
+        width: 300px;
+        height: auto;
+        z-index: 3;
+       } 
+       .header .menu-icon .navicon {
+        background: whitesmoke;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+    }
+
+  @media screen  
+  and (min-device-width: 730px) 
+  and (max-device-width: 953px)
+  {
+    .internal-image {
+        border: 0;
+        position: absolute;
+        top: 30%;
+        left: calc(50% - 200px);
+        align-content: center;
+        vertical-align: center;
+        width: 300px;
+        height: auto;
+        z-index: 3;
+       } 
+       .header .menu-icon .navicon {
+        background: darkolivegreen;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+     
+    }
+  
+
+  /* Tablets */
+@media screen 
+and (min-device-width: 953px) 
+and (max-device-width: 1024px) 
+{
+    .internal-image {
+        border: 0;
+        position: absolute;
+        top: 20%;
+        left: calc(50% - 300px);
+        align-content: center;
+        vertical-align: center;
+        width: 600px;
+        height: auto;
+        z-index: 3;
+       } 
+     
+      
+}
+
+/* Desktop / laptop */
+
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1600px)
+  {
+    .internal-image {
+        border: 0;
+        position: absolute;
+        top: 20%;
+        left: calc(50% - 300px);
+        align-content: center;
+        vertical-align: center;
+        width: 600px;
+        height: auto;
+       } 
+  }
