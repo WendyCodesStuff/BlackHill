@@ -72,8 +72,7 @@
 
   /* Style the Image Used to Trigger the Modal */
 #myImg {
-  border-radius: 0px; /* changed from 5px */
-  cursor: pointer;
+   cursor: pointer;
   transition: 0.3s;
 }
 
@@ -211,6 +210,10 @@
   display: block;
   flex-basis: 100%; /* change this value for each breakpoint*/
 }
+.nav-hair
+{
+  background: #3b270d96;
+}
 }
 @media screen  
   and (min-device-width: 730px) 
@@ -220,7 +223,7 @@
       display: none;
     }
   
-  .socials-ashwell {
+  .socials-hair {
     justify-content: center;
     position: absolute;
     width: 100%;
@@ -246,6 +249,10 @@
   display: block;
   flex-basis: 50%; /* change this value for each breakpoint*/
 }
+.nav-hair
+{
+  background: #3b270d96;
+}
 }
 
 /* Tablets */
@@ -261,7 +268,7 @@
       bottom: 25%;
       left: calc(50% - 100px);
     }
-    .socials-ashwell {
+    .socials-hair {
       justify-content: center;
       position: absolute;
       width: 100%;
@@ -314,7 +321,7 @@
       bottom: 25%;
       left: calc(50% - 100px);
     }
-    .socials-ashwell {
+    .socials-hair {
       justify-content: center;
       position: absolute;
       width: 100%;
