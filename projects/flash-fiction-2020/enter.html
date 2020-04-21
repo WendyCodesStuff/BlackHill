@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FlashFic 2020</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="../../scripts/bootstrap-yeti-wendy.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 2000, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  <script src="vendor/w3js.min.js"></script>
+  <script src="w3.includeHTML();"></script>
+  <link rel='icon' href='favicon.png' type='image/x-icon' >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+<link href="../../scripts/BHWD-scripts.css" rel="stylesheet" type="text/css">
+<link href="scripts/bhwd-flash.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Beth Ellen' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Raleway Dots' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Ruthie' rel='stylesheet'>
+ <style>
+
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+</head>
+
+<body>
+         <!-- The social media icon bar -->
+        
+       <!-- nav bar -->
+        <!-- <div class="text-white" style="width:100%;">
+
+                <header class="header">
+<br>
+                    <h1 style="font-size:3em;font-family:'Cookie';text-align: center;color: whitesmoke;font-weight:100;"><a href="index.html">FlashFic 2020</a></h1>
+                    <h3 class="sub-heading">Dark Fiction Contest</h3>
+                
+                </header>
+            </div> -->
+
+            
+            <div class="text-white" style="width:100%;">
+
+                    <header class="header navbar navbar-flash">
+    
+                        <!--<h1 style="font-family:Helvetica Neue;padding-left: 10px;"><a href="index.html">Ashwell Systems</a></h1>-->
+                            
+                        <input class="menu-btn" type="checkbox" id="menu-btn" />
+                        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                        <h1 style="font-size:3em;font-family:'Cookie';text-align: center;color: whitesmoke;font-weight:100;"><a href="index.html">FlashFic 2020</a></h1>
+                        <h3 class="sub-heading">Dark Fiction Contest</h3>
+                   
+                         
+                    </header>
+            </div>
+ 
+
+        </div>
+            <!--  end of nav bar -->
+
+    </div> -->
+</div>
+</div>
+<br><br><br><br>
+
+
+  <!-- Entry section -->
+  <!-- Form-->
+ <!-- Whole page row/col--> 
+ <div class="container-fluid overlay-none">
+        <div class="row single-col-padding" >
+            <div class="col-md-10" style="margin:auto;">
+                <!--<form>-->
+                    <form action="scripts/submit.php" method="post" >
+                                        
+                    <div  class="form-group"><input type="hidden" type="url" name="url" class="form-control" /></div>
+                  
+                    <div class="form-group">
+                        <label for="inputName">Writer's Name</label>
+                        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="Enter email address carefully - this is how we will contact you if you win!" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTitle">Story Title</label>
+                        <input type="text" class="form-control" id="inputTitle" name="inputTitle" required>
+                    </div>
+                    <div class="form-group">
+                            <label for="inputStory">Story</label>
+                            <!--<input type="email" class="form-control" id="inputStory" >-->
+                            <textarea maxlength="10000" class="form-control" id="inputStory" name="inputStory" rows="10" placeholder="Paste your (up to) 1000 word story here." required></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="inputCheckbox" onclick="enableDisable()">
+                        <label class="form-check-label" >I have read and understood the <a href="#rules" style="color:grey;">terms and conditions</a>.</label>
+                    </div><br>
+                    <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+                    <div class="form-check" style="display: none;" id="enterDiv">
+                    <div class="container-fluid overlay-none">
+                            <div class="row single-col-padding" >
+                                    <div class="col-md-6" style="text-align: center; margin-bottom:20px;">
+                                        <label  class="form-check-label" >Entry fee is £1.50.  Your submission is not complete until payment is made.  Hit "submit" to continue. </label>
+                                    </div> 
+                                    <div class="col-md-6" style="text-align: center; margin-bottom:20px;">
+                                        <input type="submit" value="Submit" class="btn btn-primary"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- Rules section -->
+ <div class="container-fluid overlay-none"   style="width:100%;margin-bottom: 50px;">
+ 
+        <div class="container-fluid overlay-none" id="rules" >
+                <br>
+                <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8" style="text-align:justify;"><text style="line-height:1.8;font-family: 'Sabon LT W01 Roman', Georgia, Times, Times New Roman, serif;" >
+                                <br><br><h3>Terms and Conditions</h3> 
+                                <br>1. Entry fee is £1.50 (or equivalent in your currency) and payable via PayPal upon submission.  
+                                <br><br>2. Your entry may be withdrawn at any time by emailing flashfiction2020@gmail.com using the subject line "Withdrawal" but refunds are not available.
+                                <br><br>3. You may enter more than one story.  Payment is required for each entry.
+                                <br><br>4. Competition closes at 11:59pm BST 31st July 2020.  Entries received after this date will not be considered.
+                                <br><br>5. Stories will be judged on narrative quality and satisfaction value in line with "What are we looking for?" above.  The judges' decision is final.  No correspondence will be entered into.
+                                <br><br>6. We collect data on your submission but will never share it.
+                                <br><br>7. The contest is not genre specific, but poetry and fanfiction will not be considered.
+                                <br><br>8. We understand the need for truth of language so will never reject a story for profanity alone.  However, if language is used in such a way it detracts from the narrative, it will be rejected merely because it doesn't constitute "good writing".
+                                <br><br>9. Similarly, violence and gore may be necessary parts of a story, but even writing contest judges have taste and if your story's nastiest parts don't have a valid base then we probably won't like it.
+                                <br><br>10. Maximum word count is 1000 words, not including the title.
+                                <br><br>11. Stories must be written in English.  Our judges are British but have no objection to American/Australian/South African or any other dialect of English.  We encourage quirky and culturally diverse stories that appeal to everyone.  
+                                <br><br>12. You must be the author of the story and own the rights to it.
+                                <br><br>13. No person associated with FlashFic2020 or the judges either professionally or personally shall be entitled to submit entries.
+                                <br><br>14. FlashFic2020 reserve the right to announce winners within 3 months of the end of the contest.
+                                <br><br>15. Submission must be made on the submission form ONLY.  Any other format (including email) will not be admitted to the competition nor will they be acknowledged or returned.
+                                <br><br>16. Entries will not be returned (so entrants are advised to keep a copy) and no corrections or changes will be permitted once the short story has been submitted.
+                                <br><br>17. Worldwide copyright of each entry remains with the author.
+                                <br><br>18. It is the intention of the organisers that the winning entry will be published by FlashFic2020 on their website. FlashFic2020 or its associates will have the unrestricted right to publish the winning entry in any format for up to 12 months after first publication by FlashFic2020, and/or use any part or the whole in any relevant promotional material.
+                                <br><br>19. FlashFic2020 will have the right to edit, make corrections and set submitted entry in ‘house style’ for the purpose of publication or marketing.
+                                <br><br>20. The judges will be Wendy Booth - Director of FlashFic2020, Dusty Rhodes, Author and Travel Writer and another judge (TBA). FlashFic2020 reserves the right to change the panel of judges without notice.
+                        
+                            </text>
+                    </div>
+                        <div class="col-2"></div>
+                        
+                </div>
+        
+        </div>
+    </div>
+</div>
+</div>
+
+
+ <!-- End of Rules section -->
+            </div>
+        </div>
+    </div>
+  
+
+<!-- End of form-->
+
+              <script>
+                    function enableDisable() {
+                        // Get the checkbox
+                        var checkBox = document.getElementById("inputCheckbox");
+                        // Get the output text
+                        var text = document.getElementById("enterDiv");
+                    
+                        // If the checkbox is checked, display the output text
+                        if (checkBox.checked == true){
+                        text.style.display = "block";
+                        } else {
+                        text.style.display = "none";
+                        }
+                    }
+                </script>
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+ <!-- End of Entry section -->
+            <!-- Socials Bottom Nav Bar-->
+            <div class="container-fluid navbarsecondary-flash bottomdiv">
+                <!-- cols -->
+                    <div class=" socials-ashwell">
+                        <div class="container-fluid">
+                            
+                            <div class="row">
+                                <div class="col" style="text-align:left;vertical-align: bottom;">
+                                    <a href="privacy-policy.pdf">Privacy Policy</a>
+
+                                </div>
+
+                                <div class="col">
+                                </div>
+                                    
+                                <div class="col" style="text-align: right;">
+                                                                 
+                                        FlashFic2020<br>
+
+                                        flashfiction2020@gmail.com
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                
+                <div class="copyright">
+                    <h6>
+                 
+                
+                    </h6>
+                    
+                </div> 
+                <div class="bhwd-copyright">
+                    <a href="../../index.html">Black Hill Web Design: Copyright 2020</a>
+                </div>
+            </div>
+        
+        </div>
+                
+    </div>
+    </div>
+
+</body>
+</html>

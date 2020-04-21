@@ -1,0 +1,545 @@
+
+
+  .navbarsecondary-ashwell {
+    
+    background-image: linear-gradient(to bottom , #311d03de, rgb(0, 0, 0));
+    height:170px;
+ 
+  }
+  .header {
+
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+ padding-right: 15px;
+ 
+  }
+.no-padding{
+  padding: 0;
+  margin: 0;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/*.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:1;
+}*/
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #ddb739;
+  color: white;
+}
+
+.pin {
+  background: #32b45d;
+  color: white;
+}
+
+.quill {
+  background: #bb0000;
+  color: white;
+}
+
+  .round-button-circle:hover {
+    background: none;
+  }
+
+  .round-button-container{
+    align-content: center;
+  }
+
+  .container-relative{
+    position: relative;
+    align-content: center;
+    margin: auto;
+  }
+
+  h3{
+    font-family: "HarmoniaSans W01 Bold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: slategrey;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .navbar-flash {
+    
+    /*background-color: #271850de;*/
+
+    background-image: url("../images/brown-wooden-desk-writing-overlaid-nav.jpg");
+   
+  }
+
+  .btn-paypal{
+
+    border:0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .main {
+    padding-bottom: 30px /*whatever the height of your footer is*/
+  }
+  /* Small phones such as iPhone 5 */
+  @media screen  
+  and (min-device-width: 320px) 
+  and (max-device-width: 355px)
+  {
+    .top-left-logo {
+      display: none;
+    }
+      .socials-ashwell {
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 0%;
+      top: 20%;
+      color:whitesmoke;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 8px;
+  
+  }
+  .socials-size{
+    font-size:30px;
+  }
+    /* Centered text */
+    .centered-circles {
+      /*position : absolute;*/
+      color:whitesmoke;
+      text-decoration: none;
+      top: 12% !important;
+      width: 100%;
+  
+    }
+  
+    .round-button-circle {
+      height: 100px;
+      width: 100px;
+      /*height: 0;*/
+      padding-bottom: 100px;
+      border-radius: 50%;
+      border: 0.75px solid whitesmoke;
+      overflow: hidden;
+      background: rgba(245, 245, 245, 0.1);
+      text-align: center;
+      /*box-shadow: 0 0 3px gray; */
+    }
+    
+    .round-button-circle:hover {
+      background: none;
+    }
+    
+    .background-image{
+      height: 100vh;
+      width: 100%; 
+      object-fit: cover;
+  
+  }
+
+  .header {
+    font-size:12px;
+  }
+  .icon-bar {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+  }
+
+  .sub-heading{
+    display: none;
+  }
+}
+
+/* Phones */
+@media screen  
+  and (min-device-width: 356px) 
+  and (max-device-width: 730px)
+  {
+  .top-left-logo {
+    display: none;
+  }
+    .socials-ashwell {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+
+}
+.socials-size{
+  font-size:30px;
+}
+  /* Centered text */
+  .centered-circles {
+    /*position : absolute;*/
+    color:whitesmoke;
+    text-decoration: none;
+    top: 15% !important;
+    width: 100%;
+
+  }
+ 
+  .round-button-circle {
+    height: 100px;
+    width: 100px;
+    /*height: 0;*/
+    padding-bottom: 100px;
+    border-radius: 50%;
+    border: 0.75px solid whitesmoke;
+    overflow: hidden;
+    background: rgba(245, 245, 245, 0.1);
+    text-align: center;
+    /*box-shadow: 0 0 3px gray; */
+  }
+  
+  .round-button-circle:hover {
+    background: none;
+  }
+
+  .background-image{
+    height: 100vh;
+    width: 100%; 
+    object-fit: cover;
+
+}
+
+.header {
+  font-size:12px;
+}
+.icon-bar {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:1;
+}
+
+.sub-heading{
+  display: none;
+}
+}
+@media screen  
+  and (min-device-width: 730px) 
+  and (max-device-width: 953px)
+  {
+    .top-left-logo {
+      display: none;
+    }
+  }
+  .socials-ashwell {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+}
+.socials-size{
+  font-size:30px;
+}
+  /* Centered text */
+  .centered-circles {
+    position : absolute;
+    color:whitesmoke;
+    text-decoration: none;
+    top: 10%;
+    width: 100%;
+  }
+
+  .round-button-circle {
+    height: 125px;
+    width: 125px;
+    /*height: 0;*/
+    padding-bottom: 100px;
+    border-radius: 50%;
+    border: 0.75px solid whitesmoke;
+    overflow: hidden;
+    background: rgba(245, 245, 245, 0.1);
+    /*box-shadow: 0 0 3px gray; */
+  }
+
+  .round-button-circle:hover {
+    background: none;
+  }
+  
+  .round-button a {
+    display: block;
+    /*float: left;*/
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .background-image{
+    height: 100vh;
+      width: 100%; 
+      object-fit: cover;
+ 
+  }
+  .icon-bar {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+  }
+
+  .sub-heading {
+    font-size: 12px;
+    text-align: center;
+    font-family:'Raleway Dots';
+    color: whitesmoke;
+  }
+  .navbarsecondary-flash {
+    
+    background-color: slategrey;
+    height:50px;
+ 
+  }
+}
+
+/* Tablets */
+@media screen 
+  and (min-device-width: 953px) 
+  and (max-device-width: 1024px) 
+  {
+    .top-left-logo {
+      position : absolute;
+      color:whitesmoke;
+      text-decoration: none;
+      opacity: 0.7;
+      bottom: 80%;
+      left: calc(10% - 100px);
+    }
+    .socials-ashwell {
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      top: 100%;
+      color:whitesmoke;
+      text-decoration: none;
+      transform: translate(-50%, -200%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 8px;
+  
+  }
+  .socials-size{
+    font-size:60px;
+  }
+  /* Centered text */
+  .centered-circles {
+    position : absolute;
+    color:whitesmoke;
+    text-decoration: none;
+    top: 20%;
+    width: 100%;
+    /*left: calc(50% - 250px);*/
+  }
+ 
+  .round-button-circle {
+    height: 150px;
+    width: 150px;
+    /*height: 0;*/
+    padding-bottom: 100px;
+    border-radius: 50%;
+    border: 0.75px solid whitesmoke;
+    overflow: hidden;
+    background: rgba(245, 245, 245, 0.1);
+    /*box-shadow: 0 0 3px gray; */
+  }
+ 
+  .round-button-circle:hover {
+    background: none;
+  }
+  
+  .round-button a {
+    display: block;
+    /*float: left;*/
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .background-image{
+    height:100vh; 
+    background-size: cover;
+    z-index:1;
+  }
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+  }
+
+  .sub-heading {
+    font-size: 12px;
+    text-align: center;
+    font-family:'Raleway Dots';
+   color: whitesmoke;
+  }
+  }
+/* Desktop / laptop */
+
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1600px)
+  {
+    .top-left-logo {
+      position : absolute;
+      color:whitesmoke;
+      text-decoration: none;
+      opacity: 0.7;
+      bottom: 80%;
+      left: calc(10% - 100px);
+    }
+    .socials-ashwell {
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      top: 100%;
+      color:whitesmoke;
+      text-decoration: none;
+      transform: translate(-50%, -200%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 8px;
+  
+  }
+  .socials-size{
+    font-size:60px;
+  }
+  
+  .round-button-circle {
+    height: 150px;
+    width: 150px;
+    /*height: 0;*/
+    padding-bottom: 100px;
+    border-radius: 50%;
+    border: 0.75px solid whitesmoke;
+    overflow: hidden;
+    background: rgba(245, 245, 245, 0.1);
+    /*box-shadow: 0 0 3px gray; */
+  }
+  
+  .round-button-circle:hover {
+    background: none;
+  }
+  
+  .round-button a {
+    display: block;
+    /*float: left;*/
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+ 
+  .background-image{
+    height:100vh; 
+    background-size: cover;
+    z-index:1;
+  }
+   /* Centered text */
+   .centered-circles {
+    position : absolute;
+    color:whitesmoke;
+    text-decoration: none;
+    top: 20%;
+    width: 100%;
+    /*left: calc(50% - 250px);*/
+  }
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:1;
+  }
+
+  .sub-heading {
+    font-size: 12px;
+    text-align: center;
+    font-family:'Raleway Dots';
+    color: whitesmoke;
+  }
+}
+
