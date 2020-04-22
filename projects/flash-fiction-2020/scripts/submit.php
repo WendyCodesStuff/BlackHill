@@ -19,7 +19,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	$userStory 		= $_POST['inputStory'];
 
 	$to 			= "flashfiction2020@gmail.com";
-	$subject 		= "Story Submission from " . $userName;;
+	$subject 		= "TEST Story Submission from " . $userName;;
 	$body 			= "Story Submitted:";
 
 	$body .= "\r\n Name: " . $userName;
